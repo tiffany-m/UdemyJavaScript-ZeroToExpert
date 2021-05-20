@@ -15,7 +15,7 @@ const btnHold = document.querySelector('.btn--hold');
 
 let scores, currentScore, activePlayer, playing // did this because of scope
 
-// Starting conditions
+// Starting conditions for game
 const initialization = function () {
   scores = [0, 0];
   currentScore = 0;
